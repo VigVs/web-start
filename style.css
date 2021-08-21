@@ -1,0 +1,184 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Montserrat arm', sans-serif;
+}
+header {
+    width: 100%;
+    height: 1075px;
+    background-image: url(img/backimg.png);
+    background-size: 100% 100%;
+}
+.header-section {
+	max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+	height: 80px;
+    padding: 64px 0;
+	color: white;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu h1 {
+    margin: 0;
+    font-size: 25px;
+    color:#fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    cursor: pointer;
+}
+.header-menu h1:hover {
+    font-weight: 700;
+    font-size: 28px;
+    border-bottom: 5px solid rgb(247, 11, 11);
+	transition: 0.4s;
+}
+.menu {
+    max-width: 800px;
+    width: 100%;
+   
+}
+.menu ul {
+	display: flex;
+    justify-content: space-between;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover {
+    font-weight: 700;
+    font-size: 22px;
+	transition: 0.4s;
+} 
+.menu-lang {
+    width: 100px;
+    height: 30px;
+}
+
+.menu-lang {
+   background: rgb(0, 0, 0);
+   color: white;
+}
+
+.text-section {
+    max-width: 996px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 236px;
+    
+    text-align: center;
+}
+
+.text-section-title { 
+    font-size: 92px;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 25px;
+    color: white;
+    margin-top: 41px;
+    margin-bottom: 28px;
+    letter-spacing: 1px;
+}
+
+.box {
+    display: inline-block;
+    max-width: 1550px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box input {
+    width: 558px;
+    height: 65px;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: start;
+    font-size: 17px;
+    outline: none;
+    padding: 0px 15px;
+}
+
+.box button {
+    width: 396px;
+    height: 65px;
+    background: #F6DD2B;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box button:hover {
+    background-color: cyan;
+    transition: 0.4s;
+}
+.link {
+    margin-top: 58px;
+    margin-left: 35px;
+    color: white;
+}
+.link a {
+    color: white;
+}
+
+.footer {
+    margin-top: 84px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a:nth-child(2) {
+   margin-left: 750px;
+}
+.footer a:nth-child(3) {
+    margin-right: 30px;
+ }
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 1550px) {
+    .text-section-title {
+        font-size: 60px;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .box input {
+        width: 450px;
+        height: 65px;
+    }
+    .box button {
+        width: 350px;
+    }
+    .footer a:nth-child(2) {
+        margin-left: 550px;
+     }
+     .footer a:nth-child(3) {
+         margin-right: 30px;
+      }
+}
+
+@media (max-width: 1034px) {
+    .header-menu h1 {
+        font-size: 20px;
+    }
+}
